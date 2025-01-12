@@ -1,0 +1,1 @@
+This repository demonstrates a common error in recursive Python functions: the lack of a base case for negative inputs. The factorial function, when called with a negative number, enters infinite recursion, causing a RecursionError. The solution involves adding a check for negative inputs, raising a ValueError or returning an appropriate value.
